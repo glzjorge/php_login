@@ -5,12 +5,12 @@
     class Conexion
     {
 
-        # Atributos de la clase conexion
+       # Atributos de la clase conexion
         private $mysqli = '';
-        private $usuario = '';
-        private $clave = '';
-        private $server = '';
-        private $db = '';
+        private $usuario = 'admin';
+        private $clave = 'admin';
+        private $server = 'mysql:3306';
+        private $db = 'login';
 
 
         # Funcion que permite conectarnos a la base de datos
